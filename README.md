@@ -5,7 +5,7 @@ A reusable bilingual AI-agent skill for creating concise, personalized, and sour
 一个面向学生的通用双语 AI Agent Skill，用于生成简洁、个性化且可追溯来源的校园晨报。
 
 [ClawHub Skill / ClawHub 技能页](https://clawhub.ai/skills/campus-morning-brief) ·
-[Version / 版本 1.0.2](https://clawhub.ai/skills/campus-morning-brief) ·
+[Version / 版本 1.0.3](https://clawhub.ai/skills/campus-morning-brief) ·
 [MIT License / MIT 许可证](LICENSE)
 
 ![Campus Morning Brief preview / 校园晨报效果图](assets/campus-morning-brief-preview.jpg)
@@ -129,13 +129,15 @@ This repository is published as a public GitHub project and a ClawHub skill. Use
 
 - GitHub: <https://github.com/my12121-beep/campus-morning-brief>
 - ClawHub: <https://clawhub.ai/skills/campus-morning-brief>
-- Release: <https://github.com/my12121-beep/campus-morning-brief/releases/tag/v1.0.2>
+- Release: <https://github.com/my12121-beep/campus-morning-brief/releases/tag/v1.0.3>
+- Promotion kit / 推广文案：[PROMOTION.md](PROMOTION.md)
 
 ## Links / 相关链接
 
 - [ClawHub Skill / ClawHub 技能页](https://clawhub.ai/skills/campus-morning-brief)
 - [GitHub repository / GitHub 仓库](https://github.com/my12121-beep/campus-morning-brief)
 - [GitHub Discussions / GitHub 讨论区](https://github.com/my12121-beep/campus-morning-brief/discussions)
+- [Promotion kit / 推广文案](PROMOTION.md)
 - [Report an issue / 提交问题](https://github.com/my12121-beep/campus-morning-brief/issues)
 
 ## License / 许可证
