@@ -41,7 +41,7 @@ body:
     attributes:
       label: Environment / 环境
       description: Include OS, Python version, ClawHub/OpenClaw version, and skill version if relevant. / 如相关，请提供系统、Python 版本、ClawHub/OpenClaw 版本和 Skill 版本。
-      placeholder: macOS 15, Python 3.13, campus-morning-brief v1.0.1
+      placeholder: macOS 15, Python 3.13, campus-morning-brief v1.0.2
   - type: textarea
     id: extra
     attributes:
