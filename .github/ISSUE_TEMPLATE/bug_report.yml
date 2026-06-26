@@ -1,0 +1,49 @@
+name: Bug report / 缺陷反馈
+description: Report a reproducible problem with the skill, schema, renderer, or docs. / 反馈 Skill、数据规范、渲染器或文档中的可复现问题。
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a problem. Please avoid sharing private student data, credentials, or delivery identifiers.
+
+        感谢反馈问题。请勿提交学生隐私、凭据或投递标识。
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary / 问题概述
+      description: What went wrong? / 出现了什么问题？
+      placeholder: The renderer rejects a valid payload...
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce / 复现步骤
+      description: Include commands, sanitized payload snippets, or screenshots when helpful. / 可包含命令、脱敏后的数据片段或截图。
+      placeholder: |
+        1. Run ...
+        2. Open ...
+        3. See ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior / 预期行为
+      description: What should have happened? / 你预期应该发生什么？
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment / 环境
+      description: Include OS, Python version, ClawHub/OpenClaw version, and skill version if relevant. / 如相关，请提供系统、Python 版本、ClawHub/OpenClaw 版本和 Skill 版本。
+      placeholder: macOS 15, Python 3.13, campus-morning-brief v1.0.1
+  - type: textarea
+    id: extra
+    attributes:
+      label: Additional context / 补充信息
+      description: Add any other context, logs, or screenshots. / 添加其他上下文、日志或截图。

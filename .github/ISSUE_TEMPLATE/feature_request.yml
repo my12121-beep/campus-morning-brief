@@ -1,0 +1,44 @@
+name: Feature request / 功能建议
+description: Suggest an improvement to the workflow, schema, renderer, or documentation. / 建议改进工作流、数据规范、渲染器或文档。
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting an improvement. Please describe the student, family, classroom, or agent workflow it supports.
+
+        感谢提出改进建议。请说明它支持的学生、家庭、班级或 Agent 工作流场景。
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or use case / 问题或使用场景
+      description: What need does this address? / 这个建议解决什么需求？
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution / 建议方案
+      description: What should change? / 你希望如何改动？
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area / 影响范围
+      options:
+        - SKILL workflow / Skill 工作流
+        - Content guidelines / 内容规范
+        - JSON schema / JSON 数据结构
+        - Renderer / 渲染器
+        - Documentation / 文档
+        - Distribution / 分发发布
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered / 其他考虑过的方案
+      description: Optional. / 可选。

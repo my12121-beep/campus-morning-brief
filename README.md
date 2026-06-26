@@ -110,10 +110,32 @@ python3 -S -B -m unittest discover -s tests -v
 python3 scripts/render_brief.py tests/fixtures/valid.json --output-dir output
 ```
 
+## Contributing / 参与贡献
+
+Contributions are welcome, especially improvements to student-safe content rules, structured payload validation, rendering quality, and bilingual documentation.
+
+欢迎参与贡献，尤其是学生适用的内容安全规则、结构化数据校验、渲染质量和双语文档。
+
+- Read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request. / 提交 PR 前请阅读 [CONTRIBUTING.md](CONTRIBUTING.md)。
+- Report reproducible problems with [GitHub Issues](https://github.com/my12121-beep/campus-morning-brief/issues). / 可通过 [GitHub Issues](https://github.com/my12121-beep/campus-morning-brief/issues) 反馈可复现问题。
+- Use [GitHub Discussions](https://github.com/my12121-beep/campus-morning-brief/discussions) for ideas, examples, and usage questions. / 可在 [GitHub Discussions](https://github.com/my12121-beep/campus-morning-brief/discussions) 讨论想法、样例和使用问题。
+- If this skill helps your workflow, starring the repository and sharing the ClawHub page helps other developers find it. / 如果这个 Skill 对你有帮助，给仓库 Star 并分享 ClawHub 页面能帮助其他开发者发现它。
+
+## Discoverability / 曝光与发现
+
+This repository is published as a public GitHub project and a ClawHub skill. Useful entry points:
+
+本仓库同时作为公开 GitHub 项目和 ClawHub Skill 发布。常用入口：
+
+- GitHub: <https://github.com/my12121-beep/campus-morning-brief>
+- ClawHub: <https://clawhub.ai/skills/campus-morning-brief>
+- Release: <https://github.com/my12121-beep/campus-morning-brief/releases/tag/v1.0.1>
+
 ## Links / 相关链接
 
 - [ClawHub Skill / ClawHub 技能页](https://clawhub.ai/skills/campus-morning-brief)
 - [GitHub repository / GitHub 仓库](https://github.com/my12121-beep/campus-morning-brief)
+- [GitHub Discussions / GitHub 讨论区](https://github.com/my12121-beep/campus-morning-brief/discussions)
 - [Report an issue / 提交问题](https://github.com/my12121-beep/campus-morning-brief/issues)
 
 ## License / 许可证
